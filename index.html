@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Drawing App</title>
+  </head>
+  <body>
+    <canvas
+      id="canvas"
+      width="800"
+      height="800"
+      style="border: 15px solid viotet"
+    ></canvas>
+    <div class="toolbox">
+      <button id="decrease">-</button>
+      <span id="size">20</span>
+      <button id="increase">+</button>
+      <input type="color" id="stroke" />
+      <button id="clear">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/143/143803.png"
+          height="50"
+          width="50"
+        />
+      </button>
+    </div>
+    <footer id="message">
+      <h1>
+                    <i class="fas fa-quote-left"></i>            
+        <span class="quote" id="quote"></span>            
+        <i class="fas fa-quote-right"></i>            
+      </h1>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
